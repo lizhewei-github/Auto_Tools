@@ -1,0 +1,27 @@
+  #++++++++++++++++++++++++++++++++++++get_flush_token数据+++++++++++++++++++++++++++++++++++
+times: "1"
+test_data: 
+  #================用例1====================
+  #场景 
+- 
+  description: 描述信息
+  thirdPartyUserId: "117163205"
+  thirdPartyId: "2"
+  account: pukunwen
+  password: e10adc3949ba59abbe56e057f20f883e
+  clientId: uc_py_test_2
+  subsystemId: "5"
+  timestamp: normal
+  signature: normal
+  script_init_flag: False
+  mongo_command: 
+    - instance.passport.update({'userName':'pukunwen'},{'$unset':{'thirdParty':''}})
+  redis_command: empty
+  sql_command: empty
+  success_str: uc_0000 
+  sync_data_flag: False
+  times: "1"
+  image_file: 
+    file: E:/wpk.png
+  
+  

@@ -1,0 +1,24 @@
+  #++++++++++++++++++++++++++++++++++++get_flush_token数据+++++++++++++++++++++++++++++++++++
+times: "1"
+test_data: 
+  #================用例1====================
+  #场景 
+- 
+  description: "--授权登录接口--用户名密码登录-正常数据"
+  account: pukunwen
+  password: e10adc3949ba59abbe56e057f20f883e
+  partenerId: b8773d4b40254232be6b520c0ac8cc37
+  clientId: uc_py_test_2
+  subsystemId: "5"
+  timestamp: normal
+  signature: normal
+  script_init_flag: False
+  mongo_command: empty
+  redis_command: empty
+  sql_command: empty
+  success_str: uc_0000
+  sync_data_flag: False
+  times: "1"
+  image_file: 
+    file: E:/wpk.png
+  

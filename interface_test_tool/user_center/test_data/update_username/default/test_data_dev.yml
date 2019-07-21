@@ -1,0 +1,17 @@
+accessToken: normal
+userName: zhenzhen1234
+clientId: uc_py_test_2
+subsystemId: "5"
+timestamp: normal
+signature: normal
+script_init_flag: True
+mongo_command: 
+  - instance.passport.update({'userName':'zhenzhen1234'},{'$set':{'userName':'zhenzhen'}})
+  - instance.user_name.remove({'_id':'zhenzhen1234'})
+redis_command: empty
+sql_command: empty
+success_str: uc_0000
+sync_data_flag: False
+times: "1"  
+image_file: 
+    file: E:/wpk.png

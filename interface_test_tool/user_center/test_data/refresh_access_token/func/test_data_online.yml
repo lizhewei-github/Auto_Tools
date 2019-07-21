@@ -1,0 +1,39 @@
+  #++++++++++++++++++++++++++++++++++++get_flush_token数据+++++++++++++++++++++++++++++++++++
+times: "1"
+test_data: 
+  #================用例1====================
+  #场景 正常数据
+- 
+  description: 接口名字refresh_access_token--场景-正常刷新
+  clientId: uc_py_test_2
+  subsystemId: "5"
+  accessToken: normal
+  timestamp: normal
+  signature: normal
+  script_init_flag: False
+  mongo_command: empty
+  redis_command: empty
+  sql_command: empty
+  success_str: uc_0000 
+  sync_data_flag: False
+  times: "1"
+  image_file: 
+    file: E:/wpk.png 
+  #================用例2====================
+  #场景 用户名不存在
+- 
+  description: 接口名字refresh_access_token--场景-错误的accesstoken
+  clientId: uc_py_test_2
+  subsystemId: "5"
+  accessToken: wwwww
+  timestamp: normal
+  signature: normal
+  script_init_flag: False
+  mongo_command: empty
+  redis_command: empty
+  sql_command: empty
+  success_str: uc_0104
+  sync_data_flag: False
+  times: "1"
+  image_file: 
+    file: E:/wpk.png

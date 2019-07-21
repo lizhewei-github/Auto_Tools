@@ -1,0 +1,18 @@
+userCell: "18612503135"
+phoneCode: "0541"
+password: "111111"
+#smsTemplateId: "1"
+#phoneAreaCode: "86"
+clientId: uc_py_test_2
+subsystemId: "5"
+timestamp: normal
+signature: normal
+script_init_flag: True
+mongo_command: empty
+redis_command: empty
+sql_command: empty
+success_str: uc_0000
+sync_data_flag: False
+times: "1"  
+image_file: 
+    file: E:/wpk.png

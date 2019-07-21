@@ -1,0 +1,16 @@
+- 
+ thirdPartyUserId: "117163205"
+ thirdPartyId: "2"
+ account: pukunwen
+ password: e10adc3949ba59abbe56e057f20f883e
+ clientId: uc_py_test_2
+ subsystemId: "5"
+ timestamp: normal
+ signature: normal
+ success_str: uc_0000
+ sync_data_flag: False
+ times: "1"  
+ image_file: 
+     file: E:/wpk.png
+ account: wenpukun
+ password: 96e79218965eb72c92a549dd5a330112

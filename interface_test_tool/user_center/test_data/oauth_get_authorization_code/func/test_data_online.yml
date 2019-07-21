@@ -1,0 +1,25 @@
+  #++++++++++++++++++++++++++++++++++++get_flush_token数据+++++++++++++++++++++++++++++++++++
+times: "1"
+test_data: 
+  #================用例1====================
+  #场景 
+- 
+  description: "--授权登录接口--用户名密码登录-正常数据"
+  response_type: code
+  scope: "888"
+  state: "666"
+  client_id: e1f31070960c425c825739ef6d8362ad
+  redirect_uri: http://172.29.2.32:12306/oauth
+  appSecret: dd8abd7f0c355124aaf05537eaa3d26d 
+  timestamp: normal
+  signature: normal
+  script_init_flag: False
+  mongo_command: empty
+  redis_command: empty
+  sql_command: empty
+  success_str: uc_0000
+  sync_data_flag: False
+  times: "1"  
+  image_file: 
+      file: E:/wpk.png
+times: "1"

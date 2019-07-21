@@ -1,0 +1,18 @@
+-
+ description: "--授权登录接口--获取code-正常数据"
+ grant_type: authorization_code
+ code: "888"
+ client_id: 6bd91df789a442198e62f2282cfc26e6
+ redirect_uri: http://10.30.10.32:10080/rest/v2/oauth/check
+ appSecret: 9d8be22a840de3516964c7e8790b4d22
+ timestamp: normal
+ signature: normal
+ script_init_flag: True
+ mongo_command: empty
+ redis_command: empty
+ sql_command: empty
+ success_str: uc_0000
+ sync_data_flag: False
+ times: "1"  
+ image_file: 
+     file: E:/wpk.png

@@ -1,0 +1,17 @@
+accessToken: normal
+oldPassword: e10adc3949ba59abbe56e057f20f883e
+newPassword: 96e79218965eb72c92a549dd5a330112
+clientId: uc_py_test_2
+subsystemId: "5"
+timestamp: normal
+signature: normal
+script_init_flag: False
+mongo_command: 
+  - instance.passport.update({'userName':'pukunwen'},{'$set':{'userPwd':'e10adc3949ba59abbe56e057f20f883e'}})
+redis_command: empty
+sql_command: empty
+success_str: uc_0000
+sync_data_flag: False
+times: "1"  
+image_file: 
+    file: E:/wpk.png

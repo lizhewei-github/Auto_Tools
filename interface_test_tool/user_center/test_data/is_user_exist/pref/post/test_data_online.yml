@@ -1,0 +1,11 @@
+- 
+ account: wenpukun
+ clientId: uc_py_test_2
+ subsystemId: "5"
+ timestamp: normal
+ signature: normal
+ success_str: uc_0206
+ sync_data_flag: False
+ times: "1"  
+ image_file: 
+     file: E:/wpk.png

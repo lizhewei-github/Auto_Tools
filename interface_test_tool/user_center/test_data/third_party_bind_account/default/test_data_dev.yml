@@ -1,0 +1,20 @@
+thirdPartyUserId: "405273017"
+thirdPartyId: "2"
+account: zhenzhen
+password: 96e79218965eb72c92a549dd5a330112
+clientId: uc_py_test_2
+subsystemId: "5"
+timestamp: normal
+signature: normal
+script_init_flag: True
+mongo_command: 
+  - instance.passport.update({'userName':'zhenzhen'},{'$unset':{'thirdParty':''}})
+  # - instance.user_mail.remove({'_id':'405273017@qq.com'})
+  # - instance.passport.remove({'userMail':'405273017@qq.com'})
+redis_command: empty
+sql_command: empty
+success_str: uc_0000
+sync_data_flag: False
+times: "1"  
+image_file: 
+    file: E:/wpk.png

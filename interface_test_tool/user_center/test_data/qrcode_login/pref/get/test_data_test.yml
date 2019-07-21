@@ -1,0 +1,11 @@
+- 
+ accessToken: normal
+ clientId: uc_py_test_21
+ subsystemId: "5"
+ timestamp: normal
+ signature: normal
+ success_str: uc_0000
+ sync_data_flag: False
+ times: "1"  
+ image_file: 
+     file: E:/wpk.png
